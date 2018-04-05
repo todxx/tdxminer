@@ -2,6 +2,8 @@
 
 This software is in an alpha stage and may be unstable.
 
+Download is available in the [releases section](https://github.com/todxx/tdxminer/releases).
+
 Currently only AMD Polaris and Vega GPUs are supported and must be running with the ROCm 1.7.1 OpenCL stack.
 
 This miner currently only supports the lyra2z algorithm.  Its only configuration is via command line to set the basic parameters for connecting to a stratum pool and selecting which platforms/devices to use.  Invoking the miner with the --help option will print a short help message for how to use the options.  I have tried to make the options similar to other miners to keep confusion to a minimum.
