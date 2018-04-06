@@ -14,7 +14,9 @@ Software Requirements:
 - [ROCm 1.7.1](https://github.com/RadeonOpenCompute/ROCm)
 - libjansson4
 
-This miner includes a dev fee.  The hash rates reported by the miner are the user hash rates.  (I.E. the hash rates reported should be the average hash rate that your pool reports.)
+This miner includes a dev fee.  The fee in this release is pretty high as I have not yet decided what to set the long-term fee to.  Also to encourage users to switch to future, more stable releases.  The goal of this alpha release is to get some users to kick the tires and shake out bugs, not to switch their farms over to it.
+
+The miner reports user hash rates every 60 seconds.  These are the hash rates after dev fee deduction.  (I.E. the hash rates reported should be the average hash rate that your pool reports.)
 
 Some rough lyra2z performance numbers with this version:
 
