@@ -1,4 +1,4 @@
-# tdxminer v0.2.1.0
+# tdxminer v0.2.1.1
 
 This software is in a beta stage and may be unstable on some hardware.
 
@@ -33,6 +33,9 @@ For reporting bugs and/or for features requests, please open an issue on this pr
 Happy hashing ;)
 
 ----------------
+Changes in v0.2.1.1
+- Fixed bug with handling network errors in dev pool connection.
+
 Changes in v0.2.1.0
 - Fixed bug with handling network errors in pool connection.
 
