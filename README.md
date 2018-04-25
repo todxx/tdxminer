@@ -1,4 +1,4 @@
-# tdxminer v0.2.2.0
+# tdxminer v0.2.2.1
 
 This software is in a beta stage and may be unstable on some hardware.
 
@@ -33,6 +33,10 @@ For reporting bugs and/or for features requests, please open an issue on this pr
 Happy hashing ;)
 
 ----------------
+Changes in v0.2.2.1
+- Added better/faster handling of non-responding pool connections.
+- More network bug fixes.
+
 Changes in v0.2.2.0
 - More network bug fixes for pool connection.
 
