@@ -1,4 +1,4 @@
-# tdxminer v0.2.2.1
+# tdxminer v0.2.2.2
 
 This software is in a beta stage and may be unstable on some hardware.
 
@@ -33,6 +33,11 @@ For reporting bugs and/or for features requests, please open an issue on this pr
 Happy hashing ;)
 
 ----------------
+Changes in v0.2.2.2
+- Changed output to be line buffered for easier use with piping.
+- Fixed month off-by-one bug in printing the date.
+- Fixed hang that could occur when pool connection is lost.
+
 Changes in v0.2.2.1
 - Added better/faster handling of non-responding pool connections.
 - More network bug fixes.
